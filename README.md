@@ -1,14 +1,25 @@
-# Informations about app:
-This app is a very basic GPLv3 calc. It can do 4 basic math operations and take squareroot l
-of a number.
-# Installation
-1. Clone the repository by `git clone https://github.com/npc-gnu/gplcalc.git`
-2. You can compile it by runnin `g++ -o hesap hesap.cpp`
-Reason of this app i deleted Xiaomi's calc app from my phone so i wanted to write an free software calculator app from scratch to use it on termux.
-But you can use it in your computer too.
-And i will still going to add new features to thiss calc too.
+# gplcalc
+This is a terminal based gpl calculator app.   
+This CLI-based application supports:
 
-Lastly: This app is %100 Turkish. I will make it English soon.
+- Basic arithmetic operations (+, −, ×, ÷)
+- Square root calculation
+- Exponentiation
 
-# License:
-This app and every part of it licensed by GNU is not Unix General Public License v3.
+> **Note:** The entire application and its interface are in **Turkish**.
+
+## Installation
+
+### 1. Clone the repository:
+git clone https://github.com/npc-gnu/gplcalc.git && cd gplcalc
+### 2. Compile it:
+g++ -o hesap_g hesap_g.cpp
+
+## Notes:
+ This app uses cmath and iostream libraries.
+ It is fully turkish. Will be english soon.
+ Fully written in C++ and written with vim, g++, archlinux,kitty terminal.
+
+## License:
+
+This app and every part of it licensed by GNU is Not Unix General Public Lisence version 3. (GPLv3)

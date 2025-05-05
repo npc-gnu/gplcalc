@@ -5,12 +5,17 @@ using namespace std;
 int main(){
 
 	int A;
-		cout << "Bir seçenek girin: 1. Toplama, 2. Çıkartma, 3. Çarpma, 4. Bölme, 5. Kökünü alma." << endl;
+		cout << "Bir seçenek girin. 1. 4 Temel işlem, 2. Karmaşık işlemler." << endl;
 	cin >> A;
 
 		switch (A) {
 			case 1: {
-			cout << " 2 sayı girin." << endl;
+				int B;
+				cout << "Seçenek girin. 1. Toplama, 2. Çıkarma, 3. Çarpma, 4. Bölme" << endl;
+				cin >> B;
+				switch (B) {
+			case 1: {
+			cout << "2 sayı girin." << endl;
 			int L;
 			int I;
 			cin >> L;
@@ -44,23 +49,46 @@ int main(){
 				       cin >> L;
 				       cout << P / L << endl;
 			       }
+			default:{
+					cout << "Belirli bir seçenek gir!" << endl;
+				}
+				break;
+				}
 			       break;
-			case 5:{
+			case 2:{
+				       int C;
+				       cout << "Bir seçenek girin: 1. Kök, 2. Üssü ifade işlemi." << endl;
+				       cin >> C;
+				       switch (C){
+				       case 1:{
 				       cout << "1 Sayı girin." << endl;   
 			               int Q;
 				       cin >> Q;
 				       if (Q < 0){
 					       cout << "0 dan küçük sayılar reel değildir!" << endl;
 				       }
-					       else{
-				       cout << sqrt(Q) << endl;
+				       else{	       
+					       cout << sqrt(Q) << endl;
 			       }
+				       break;
+
 			       }
-				       
+				       case 2:{
+					       int X;
+					       int Y;
+				       cout << "Taban sayıyı girin." << endl;
+				       cin >> X;
+				       cout << "Üs sayıyı girin." << endl;
+				       cin >> Y;
+					       cout << pow(X, Y) << endl;
+				       }
 			       break;
 		default: {
 				 cout << "Belirli bir seçenek gir!" << endl;
 			 }
 		}
 		return 0;
+}
+}
+}
 }
