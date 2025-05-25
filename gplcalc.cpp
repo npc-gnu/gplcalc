@@ -15,18 +15,35 @@ int main(){
 				cin >> B;
 				switch (B) {
 			case 1: {
-			cout << "2 sayı girin." << endl;
-			int L;
-			int I;
-			cin >> L;
-	                cin >> I;
-			cout << L + I << endl; 
+			cout << "Toplayacağınız sayıları girin." << endl;
+
+				float toplam = 0;
+				string input;
+
+				while (true) {
+					cout << ">> ";
+					cin >> input;
+
+					if (input == "=") {
+						break;
+					}
+
+					try {
+						float sayi = stof(input);
+						toplam += sayi;
+					} catch (...) {
+						cout << "Geçersiz giriş! Sayı girin veya '=' ile bitirin." << endl;
+					}
 				}
+
+				cout << "Toplam: " << toplam << endl;
+				break;
+			}
 				break;
 			case 2:{
 				       cout << "1. Çıkarılan, 2. çıkan sayı girin." << endl;
-				       int N;
-				       int U;
+				       float N;
+				       float U;
 				       cin >> N;
 				       cin >> U;
 				       cout << N - U << endl;
@@ -34,8 +51,8 @@ int main(){
 			       break;
 			case 3:{
 				       cout << "2 sayı girin." << endl;
-				       int X;
-				       int G;
+				       float X;
+				       float G;
 				       cin >> X;
 				       cin >> G;
 				       cout << X * G << endl;
@@ -81,7 +98,7 @@ int main(){
 				       switch (C){
 				       case 1:{
 				       cout << "1 Sayı girin." << endl;   
-			               int Q;
+			               float Q;
 				       cin >> Q;
 				       if (Q < 0){
 					       cout << "0 dan küçük sayılar reel değildir!" << endl;
@@ -110,11 +127,11 @@ int main(){
 						      switch (S){
 							      case 1:{
 								      cout << "2 dik kenarı girin." << endl;
-								      int W;
-								      int L;
+								      float W;
+								      float L;
 								      cin >> W;
 								      cin >> L;
-								      int h = sqrt(L*L + W*W);
+								      float h = sqrt(L*L + W*W);
 								      if(W * W + L * L == h*h){
 									      cout << "Sonuç: " << h << endl;
 						      }
