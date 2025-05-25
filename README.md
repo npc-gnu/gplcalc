@@ -10,8 +10,6 @@ This CLI-based application supports:
 - Exponentiation
 - Hypotenuse Calculation
 
-> **Note:** The entire application and its interface are in **Turkish**.
-
 ## Installation
 
 ### 1. Clone the repository:
@@ -24,7 +22,6 @@ This CLI-based application supports:
 ## Notes:
  Reason about the installer wants root, because of it copies gplcalc to /usr/local/bin and this operate needs root.
  This app uses cmath and iostream libraries.
- It is fully turkish. Will be english soon.
  Fully written in C++ and written with vim, g++, Arch GNU/Linux ,kitty terminal.
 
 ## License:
