@@ -1,3 +1,6 @@
+![gplcalc logo](./logo.png)
+
+
 # gplcalc
 This is a terminal based gpl calculator app.   
 This CLI-based application supports:
