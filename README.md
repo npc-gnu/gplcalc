@@ -17,7 +17,7 @@ This CLI-based software supports:
 ### 1. Clone the repository:
 `git clone https://github.com/npc-gnu/gplcalc.git && cd gplcalc`
 ### 2. Run the installer script:
-`chmod +x installer && ./installer`
+`chmod +x installer && ./install`
 ### Or compile it like a gentoo-lover, cpu hater
 `g++ -o gplcalc gplcalc.cpp` (then run the installer)
 
