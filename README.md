@@ -3,12 +3,14 @@
 
 # gplcalc
 This is a terminal based gpl calculator app.   
-This CLI-based application supports:
+This CLI-based software supports:
 
 - Basic arithmetic operations (+, −, ×, ÷)
 - Square root calculation
 - Exponentiation
 - Hypotenuse Calculation
+> **Not:** Türkçe versiyon için [buraya tıklayın](https://github.com/npc-gnu/gplcalc-tr)
+ .
 
 ## Installation
 
