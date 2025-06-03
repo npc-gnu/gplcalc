@@ -1,31 +1,59 @@
 ![gplcalc logo](./logo.png)
 
-
 # gplcalc
-This is a terminal based gpl calculator app.   
-This CLI-based software supports:
 
-- Basic arithmetic operations (+, −, ×, ÷)
+**gplcalc** is a terminal-based calculator application written in C++. It offers a command-line interface (CLI) for performing common mathematical operations.
+
+## Features
+
+- Basic arithmetic operations: `+`, `-`, `*`, `/`
 - Square root calculation
-- Exponentiation
-- Hypotenuse Calculation
-> **Not:** Türkçe versiyon için [buraya tıklayın](https://github.com/npc-gnu/gplcalc-tr)
- .
+- Exponentiation (power)
+- Hypotenuse calculation (for right triangles)
+
+> **Note:** Looking for the Turkish version? [Click here](https://github.com/npc-gnu/gplcalc-tr)
+
+---
 
 ## Installation
 
-### 1. Clone the repository:
-`git clone https://github.com/npc-gnu/gplcalc.git && cd gplcalc`
-### 2. Run the installer script:
-`chmod +x installer && ./install`
-### Or compile it like a gentoo-lover, cpu hater
-`g++ -o gplcalc gplcalc.cpp` (then run the installer)
+### 1. Clone the Repository
 
-## Notes:
- Reason about the installer wants root, because of it copies gplcalc to /usr/local/bin and this operate needs root.
- This software uses cmath and iostream libraries.
- Fully written in C++ and written with vim, g++, Arch GNU/Linux ,kitty terminal.
+```bash
+git clone https://github.com/npc-gnu/gplcalc.git && cd gplcalc
+```
 
-## License:
+### 2. Run the Installer Script
 
-This app and every part of it licensed by GNU is Not Unix Affero General Public Lisence version 3. (AGPLv3)
+```bash
+chmod +x installer && ./install
+```
+
+### Alternatively: Compile It Yourself
+
+If you enjoy compiling things manually, you can use:
+
+```bash
+g++ -o gplcalc gplcalc.cpp
+```
+
+Then manually copy it to `/usr/local/bin` or run the installer script afterward.
+
+---
+
+## Notes
+
+- The installer script requires **root privileges** because it copies `gplcalc` to `/usr/local/bin`, a directory owned by root.
+- This software uses the `cmath` and `iostream` C++ standard libraries.
+- Fully written in C++ using:
+  - `vim` ,
+  - `kate`,
+  - `g++` ,
+  - Arch GNU/Linux and
+  - `kitty` 
+
+---
+
+## License
+
+This project is licensed under the [GNU Affero General Public License v3 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.html).
