@@ -23,9 +23,9 @@ This CLI-based software supports:
 
 ## Notes:
  Reason about the installer wants root, because of it copies gplcalc to /usr/local/bin and this operate needs root.
- This app uses cmath and iostream libraries.
+ This software uses cmath and iostream libraries.
  Fully written in C++ and written with vim, g++, Arch GNU/Linux ,kitty terminal.
 
 ## License:
 
-This app and every part of it licensed by GNU is Not Unix Affero General Public Lisence version 3. (GPLv3)
+This app and every part of it licensed by GNU is Not Unix Affero General Public Lisence version 3. (AGPLv3)
