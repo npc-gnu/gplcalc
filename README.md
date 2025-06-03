@@ -28,4 +28,4 @@ This CLI-based software supports:
 
 ## License:
 
-This app and every part of it licensed by GNU is Not Unix General Public Lisence version 3. (GPLv3)
+This app and every part of it licensed by GNU is Not Unix Affero General Public Lisence version 3. (GPLv3)
