@@ -1,3 +1,5 @@
+- This projects development has ended. I will fix its errors but i won't develop it more.
+
 ![gplcalc logo](./logo.png)
 
 # gplcalc
